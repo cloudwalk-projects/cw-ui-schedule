@@ -18,8 +18,8 @@ config.entry = {
 // Basic output config
 config.output = {
   path: path.resolve(__dirname, '../dist'),
-  filename: 'cw-ui-treetable.js',
-  library: ["CwTreeTable"],
+  filename: 'cw-ui-schedule.js',
+  library: ["CwSchedule"],
   libraryTarget: "umd",
 };
 
@@ -76,7 +76,7 @@ config.module = {
 console.log(process.env.NODE_ENV)
 
 if (process.env.NODE_ENV === 'production') {
-  config.output.filename = "cw-ui-treetable.min.js"
+  config.output.filename = "cw-ui-schedule.min.js"
   config.devtool = '#source-map';
 
   // Pass build environment inside bundle

@@ -1,25 +1,25 @@
 # cw-ui-treetable
 
-> 基于 vue 2.0 开发的 TreeTable 组件.
+> 基于 vue 2.0 开发的 Schedule 组件.
 
 ## 安装
 
 ```
-npm install cw-ui-treetable -save
+npm install cw-ui-schedule -save
 ```
 
 ## 开始
 
 Html
 ```
-<cw-treetable :rows="data">
-</cw-treetable>
+<cw-schedule :rows="data">
+</cw-schedule>
 ```
 
 Script
 ```
 import Vue from 'vue';
-import CwTreeTable from 'cw-ui-treetable'
+import CwSchedule from 'cw-ui-schedule'
 
 Vue.use(CwTreeTable);
 
