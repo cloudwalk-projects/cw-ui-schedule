@@ -21,7 +21,7 @@ Script
 import Vue from 'vue';
 import CwSchedule from 'cw-ui-schedule'
 
-Vue.use(CwTreeTable);
+Vue.use(CwSchedule);
 
 new Vue({
   el: '#app',

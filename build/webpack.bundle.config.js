@@ -12,7 +12,7 @@ config.context = path.resolve(__dirname, '..');
 
 // Client entry
 config.entry = {
-  CwTreeTable: path.resolve(__dirname, '../src/index.js')
+  CwSchedule: path.resolve(__dirname, '../src/index.js')
 };
 
 // Basic output config
